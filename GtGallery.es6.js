@@ -1,8 +1,4 @@
 /**
- * Created by giladtakoni on 20/07/2016.
- */
-
-/**
  *
  * @name GtGallery
  * @class
