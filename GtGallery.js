@@ -204,10 +204,3 @@ function GtGallery(container, intervalTimeout){
     this.stop = stop;
 }
 
-function onLoad(){
-    var container = document.getElementById('about-the-film');
-    var gallery = new GtGallery(container,3000);
-    gallery.init();
-
-}
-document.addEventListener('DOMContentLoaded',onLoad);

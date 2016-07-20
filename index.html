@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Example Gt gallery</title>
+    <script src="GtGallery.js"></script>
+    <script>
+        function onLoad(){
+            var container = document.getElementById('about-the-film');
+            var gallery = new GtGallery(container,3000);
+            gallery.init();
+
+        }
+        document.addEventListener('DOMContentLoaded',onLoad);
+    </script>
+</head>
+<body>
+
+
+<div id="about-the-film" class="GtGallery" style="height: 261px;">
+    <ul class="about-the-film GtGallery__items quotes ">
+        <li class="GtGallery__item">
+            <i class="fa fa-quote-left" aria-hidden="true"></i>
+            <span>22222Honor Diaries is a powerful and imractice of honour-based violence here in the UK and around the world</span>
+            <i class="fa fa-quote-right" aria-hidden="true"></i>
+            <div class="author">22222- Office of Sharon Hodgson MP</div>
+        </li>
+        <li class="GtGallery__item">
+            <i class="fa fa-quote-left" aria-hidden="true"></i>
+            <span>111111Honor Diaries is a powerful and important film, one which every school in England should show to their students. It shines a much-needed spotlight on the horrendous practice of honour-based violence here in the UK and around the world</span>
+            <i class="fa fa-quote-right" aria-hidden="true"></i>
+            <div class="author">11111- Office of Sharon Hodgson MP . Labour Member of Parliament, UK</div>
+        </li>
+        <li class="GtGallery__item">
+            <i class="fa fa-quote-left" aria-hidden="true"></i>
+            <span>22222Honor Diaries is a powerful and imractice of honour-based violence here in the UK and around the world
+22222Honor Diaries is a powerful and imractice of honour-based violence here in the UK and around the world
+22222Honor Diaries is a powerful and imractice of honour-based violence here in the UK and around the world</span>
+            <i class="fa fa-quote-right" aria-hidden="true"></i>
+            <div class="author">44444- Office of Sharon Hodgson MP</div>
+        </li>
+        <li class="GtGallery__item current">
+            <i class="fa fa-quote-left" aria-hidden="true"></i>
+            <span>Honor Diaries is a powerful and important film, one which every school in England should show to their students. It shines a much-needed spotlight on the horrendous practice of honour-based violence here in the UK and around the world</span>
+            <i class="fa fa-quote-right" aria-hidden="true"></i>
+            <div class="author">- Office of Sharon Hodgson MP . Labour Member of Parliament, UK</div>
+        </li>
+    </ul>
+</div>
+</body>
+</html>
