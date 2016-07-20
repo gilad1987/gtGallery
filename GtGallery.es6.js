@@ -19,7 +19,7 @@ class GtGallery{
             throw new Error('GtGallery: Invalid element pass to constructor');
         }
 
-        let init = false;
+        let _init = false;
         let CLASS_NAME_ITEM = "GtGallery__item";
         let CLASS_NAME_ITEM_BUTTON = "GtGallery__index_button";
         let items = container.getElementsByClassName(CLASS_NAME_ITEM);
@@ -74,7 +74,7 @@ class GtGallery{
          * @returns {boolean}
          */
         function creteButtons(){
-            if(init) return false;
+            if(_init) return false;
 
             let i=0,
                 button,buttons,
@@ -107,7 +107,7 @@ class GtGallery{
          * @returns {boolean}
          */
         function attachEvent(){
-            if(init) return false;
+            if(_init) return false;
 
             function onClick(event){
                 let target = event.target,
@@ -180,7 +180,7 @@ class GtGallery{
          * @returns {boolean}
          */
         this.init = function init(){
-            if(init==true) {
+            if(_init==true) {
                 return false;
             }
 
