@@ -4,9 +4,14 @@
 
 /**
  *
+ * @name GtGallery
+ * @class
+ * @desc
+ * @version 1.0.0
+ * @author Gilad takoni <gilad1987@gmail.com>
  * @param {Element} container
  * @param {Number} intervalTimeout
- * @constructDor
+ * @constructor
  */
 function GtGallery(container, intervalTimeout){
 
