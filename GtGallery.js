@@ -7,6 +7,8 @@
  * @name GtGallery
  * @class
  * @desc
+ * @date Create 20/07/2016.
+ * @date Last update 20/07/2016.
  * @version 1.0.0
  * @author Gilad takoni <gilad1987@gmail.com>
  * @param {Element} container
